@@ -69,22 +69,3 @@ form.addEventListener(`submit`, (event) => {
   // reset form
   form.reset();
 })
-
-
-// const displayParties = (parties) => {
-//   const partyList = document.getElementById('party-list');
-//   partyList.innerHTML = ''; // Clear existing list
-
-// parties.forEach(party => {
-//   const partyDiv = document.createElement('div');
-//   partyDiv.className = 'party';
-//   partyDiv.innerHTML = `
-//       <h3>${party.name}</h3>
-//       <p>Date: ${party.date}</p>
-//       <p>Time: ${party.time}</p>
-//       <p>Location: ${party.location}</p>
-//       <p>Description: ${party.description}</p>
-//   `;
-//   partyList.appendChild(partyDiv);
-// });
-// };
